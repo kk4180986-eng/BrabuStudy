@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRABU Premium Notes | Kaushal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #00c6ff;
+            background-color: white; 
+            padding: 5px;
+            margin-bottom: 10px;
+            object-fit: contain;
+        }
+        .product-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 15px;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column; 
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        .thumbnail-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .product-info h3 {
+            margin: 0 0 5px 0;
+            font-size: 17px;
+        }
+        .product-info p {
+            margin: 0;
+            color: #b3ccff;
+            font-size: 13px;
+        }
+        .buy-btn {
+            background: #00c6ff;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-header">
+        <!-- BRABU Study Logo -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFa0OmeHR4IxfeedsgL61u0pmbG-aBH8WehtH_CDZRb5rBChMwD8Qhsk-iSEU0TKb6HrL523vm6nEUtane5PJTf7Va4DAQCTTHLHrmqp-TsScdegcSAnP29abvTJRxXjJqwWqHtBYqINMdsBU7-Vk8jJUJ39syxm-XpwJ_2QY0uaApNE5DHJsEaYyWm9Dw/s1536/file_000000003d3c82118bd788c1fc684673.jpg" alt="BRABU Study Logo" class="profile-pic">
+        <h2>BRABU Study Premium</h2>
+        <p>Boost your exam prep with VVI Notes</p>
+    </div>
+
+    <!-- Botany Premium Product -->
+    <div class="product-card">
+        <!-- Botany Thumbnail -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibXA-FdTSwyOjpT2jmUrH4D7glb2S55WZf4xpDvOMLCxJ0hj5JdrAkW5WdLZJ2cP9tDOiEp16FyyKfD4lt7fi14hAKYjAF9IPlN_1eX1sfuzudyAswXX0rBHeXGZDKT0k9zni7rnVcDxNeOntNQltnqNq1uveg23ujYRQaoUxXwsmb2dCTEhRPsMk2tdYG/s1672/file_00000000012c8211b49d775faddbd6ae.png" alt="Botany Notes" class="thumbnail-img">
+        <div class="card-bottom">
+            <div class="product-info">
+                <h3>Botany Semester 4 VVI</h3>
+                <p>100 Objective Questions PDF</p>
+            </div>
+            <!-- Razorpay Link for Botany -->
+            <a href="#" class="buy-btn">₹49 - Buy</a>
+        </div>
+    </div>
+
+    <!-- History Premium Product -->
+    <div class="product-card">
+        <!-- History Thumbnail -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpGmGVepz4NTPrlvXi01R2qqRrI21RcpVSHszhBqLaHVj_0E_A1CxImtxUUNhSOB-8ZuLHptzFMC3DiwI7KwkRIW9E_Zx28n_HiNl62Ir19N5L3lbQ5zmGTL3Jsz9Z4lGkeYvl6GMPF28XucC1ZRCj8ec2lAVhF8MVBG_3YpzcNHmkENLB0mPNmRA9VuED/s1672/file_00000000697c8243b7f437ad1d29db4f.png" alt="History Notes" class="thumbnail-img">
+        <div class="card-bottom">
+            <div class="product-info">
+                <h3>History Model Set</h3>
+                <p>MJC-5, 6 & 7 Complete PDF</p>
+            </div>
+            <!-- Razorpay Link for History -->
+            <a href="#" class="buy-btn">₹49 - Buy</a>
+        </div>
+    </div>
+
+</body>
+</html>
